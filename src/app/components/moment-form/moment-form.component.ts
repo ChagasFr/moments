@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { Moment } from 'src/app/Moment';
+import { Moment } from '../../moment';
 
 @Component({
   selector: 'app-moment-form',
